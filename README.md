@@ -20,6 +20,7 @@ That's it, the next time you update udev/mdadm the rules will be patched.
 
 ## References
 https://bbs.archlinux.org/viewtopic.php?id=202597
+
 https://askubuntu.com/questions/1239082/reassemble-intel-rst-raid-on-another-mainboard
 
 From `man mdadm`:
