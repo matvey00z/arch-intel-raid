@@ -1,0 +1,10 @@
+[Trigger]
+Type = Path
+Operation = Install
+Operation = Upgrade
+Target = usr/lib/udev/rules.d/64-md-raid-assembly.rules
+
+[Action]
+Description = Patching initrd mdadm command
+When = PostTransaction
+Exec = /bin/bash /etc/pacman.d/hooks/89-mkinitcpio-preinstall.sh
